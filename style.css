@@ -1,0 +1,19 @@
+div{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+.contenedor{
+    width: 1200 px;
+    height: 300px;
+    display: flex;
+    align-items: center; /* stretch,flex-star,flex-end,center*/
+    justify-content: center; /*flex-star(lo mueve al costado izq),flex-end,center,space-between,space-around,space-evenly*/
+    flex-direction: row; /*row,columns*/
+}
+
+.s1,.s2,.s3{
+    width: 300px;
+}
+
